@@ -1,0 +1,144 @@
+#container{
+
+    height: 600px;
+    width: 600px;
+    /* background-color: #104469; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mobile{
+    height: 370px;
+    width: 210px;
+    /* background-color: #ffffff; */
+    border-radius: 10%;
+    border: 7px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    /* box-shadow: 0 0 200px rgb(12, 12, 12); */
+}
+#speaker{
+    height: 10px;
+    width: 70px;
+    background-color: rgb(15, 14, 14);
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    /* align-items: center; */
+    /* flex-direction: row; */
+    /* justify-content: start; */
+    
+}
+#camera{
+    height: 5px;
+    width: 5px;
+    /* background-color: #494747; */
+    left: 7px;
+    position: relative;
+    border-radius: 50%;
+}
+#stroke1{
+    height: 3.5px;
+    width: 40px;
+    background-color: #3b3636;
+    /* background-color: ; */
+    /* background-color: ; */
+    position: relative;
+    left: 15px;
+    border-radius: 20px 20px 20px 20px;
+}
+#buttonBar{
+    height: 70px;
+    width: 220px;
+    /* background-color: #fff; */
+    position: relative;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    /* position: relative; */
+    
+    
+}
+#stroke2{
+    height: 6px;
+    width: 220px;
+    background-color: black;
+    position: relative;
+    left: -0px;
+}
+#switch{
+    /* animation: move 10s  2s infinite forwards ; */
+    height: 45px;
+    width: 45px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #717174;
+    border: none;
+    /* position: absolute; */
+    top: 1px;
+    border: 2px solid black;
+    /* box-shadow: 0 0 200px rgb(239, 22, 22); */
+}
+#stroke3{
+    height: 6px;
+    width: 220px;
+    background-color: black;
+    position: relative;
+    top: 10px;
+}
+.toggle{
+    background: #e1f668;
+    /* animation: move 10s  2s infinite forwards ; */
+    /* color: red; */
+    /* box-shadow: 0 0 100px #d8fa1c; */
+}
+/* @keyframes move {
+    from{
+        translate: 50px;
+        
+    }
+    to{
+        translate: 100px;
+    }
+    
+} */
+/* .camera{
+    box-shadow: 0 0 200px  #c90505;
+} */
+img{
+    height: 295px;
+    width: 200px;
+    position: relative;
+    top: 8px;
+    right: -0px;
+    display: none;
+    border-radius: 5%;
+}
+.click{
+    height: 295px;
+    width: 200px;
+    position: relative;
+    top: 8px;
+    right: -0px;
+    display: flex;
+    border-radius: 5%;
+   
+    
+}
+.blink{
+
+    background-color: #b90f0f;
+}
+/* #imgcont{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+} */
